@@ -15,10 +15,9 @@ One long lived http connection for the communcation.\
 The Main difference between the Websocket and SSE is bidirection communcation. In some cases server needs to push data back to browser and client (browser) no need to send any messages. 
 
 ## Standard
-[Html Standard](https://developer.mozilla.org/en-US/docs/Web/API/EventSource), and most of the case
-`
+[Html Standard](https://developer.mozilla.org/en-US/docs/Web/API/EventSource), and most of the case the below format are transferred
+
 * event: notice
 * data: useful data
 * id: someid
-`
-are the basic format used. 
+
